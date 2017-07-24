@@ -1,0 +1,387 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover {
+	color: #A83330 !important;
+}
+
+#finger {
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	top: 360px; 
+	left: 250px; 
+}
+
+.red-button {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	background:#A83330; 
+	width:100%; 
+	height:400px;	
+}
+.red-button:hover {
+	opacity: .6;
+}
+
+.state1 {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	z-index:1;
+	position: relative;
+	left: 50px;
+	top: 0px;
+
+
+	
+}
+.state1:hover {
+	-webkit-filter: blur(0);
+	filter:blur(0);
+	position: relative;
+	left: 100px;
+	top: 0px;
+}
+
+.stateh3 {
+	position: relative;
+	font-family: Anton;
+	top: 200px;
+	text-align: center;
+	color:#A83330;
+	font-size: 32px;
+
+}
+
+.stateh2 {
+	z-index:2;
+	position: relative;
+	font-family: Anton;
+	top: 400px;
+	text-align: center;
+	color:#A83330;
+	font-size: 40px;
+
+}
+
+.savageh2 {
+	z-index:2;
+	position: relative;
+	font-family: Anton;
+	top: 400px;
+	text-align: center;
+	color: #7ABCB1;
+	font-size: 40px;
+
+}
+
+.back {
+	z-index:3;
+	position: fixed;
+	bottom: 20px;
+	left: 15px;
+	width: 60px;
+	height: 40px;
+
+}
+
+.forward {
+	z-index:3;
+	position: fixed;
+	bottom: 20px;
+	right: 15px;
+	width: 60px;
+	height: 40px;
+
+}
+
+/*.red-button2 {
+	background: #A83330; 
+	width: 100%; 
+	height: 500px;
+	opacity: 0.69;	
+} */
+
+.blue-button {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    background: #7ABCB1;
+    width:100%; 
+    height:500px; 
+}
+.blue-button:hover {
+	opacity: .7;
+}
+/* #title {
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 50px;
+	position: relative;
+	text-align: center;
+	top: 365px; 
+	left: 310px;
+} */
+/* .flip-container {
+	perspective: 1000px;
+	width: 100%;
+	height: 500px
+}
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+
+	}
+
+.flip-container, .front, .back {
+	width: 100%;
+	height: 500px;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+    width:100%; 
+    height:500px;
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+    width:100%; 
+    height:500px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	
+	transform: rotateY(0deg);
+	width:100%; 
+    height:500px;
+}
+
+
+.back {
+	transform: rotateY(180deg);
+	width:100%; 
+    height:500px;
+} */ 
+
+#sleep {
+	position: relative;
+	bottom: 5px;
+	left: 200px;
+	
+}
+
+#group {
+	position: relative;
+	left: 400px;
+}
+
+.red {
+	float: right;
+	left: 870px;
+	right: 0px;
+	top: 0px;
+	width: 160px;
+	height: 200px;
+
+}
+
+.blue {
+	float: right;
+	z-index: 3;
+	left:0px;
+	right: 0px;
+	top: 0px;
+	width: 160px;
+	height: 200px;
+}
+
+#h2read {
+	position: relative;
+	top: 50px;
+	text-align: center;
+	font-family:'Abril Fatface', cursive;
+	color: #A83330;
+	font-size: 50px;
+
+}
+
+#h3slogan1 {
+	color: #A83330;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 28px;
+	margin-top: 150px;
+	font-size: 30px;
+}
+
+#h3slogan2 {
+	color: #A83330;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 35px;
+	font-size: 30px;
+    margin-top: 400px;
+}
+
+#h3slogan3 {
+	color: #A83330;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 35px;
+	font-size: 30px;
+    margin-top: 500px;
+    z-index:2;
+}
+
+#h3slogan4 {
+	color: #A83330;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 28px;
+	margin-top: 150px;
+	font-size: 30px;
+}
+
+#h3slogan5 {
+	color: #A83330;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 35px;
+	font-size: 20px;
+    margin-top: 400px;
+}
+
+#h3slogan6 {
+	color: #A83330;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 35px;
+	font-size: 10px;
+    margin-top: 500px;
+    z-index:2;
+}
+
+#h3savage1 {
+	color: #7ABCB1;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 28px;
+	margin-top: 150px;
+	font-size: 30px;
+}
+
+#h3savage2 {
+	color: #7ABCB1;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 35px;
+	font-size: 30px;
+    margin-top: 400px;
+}
+
+#h3savage3 {
+	color: #7ABCB1;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 35px;
+	font-size: 30px;
+    margin-top: 500px;
+    z-index:2;
+}
+
+#h3savage4 {
+	color: #7ABCB1;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 35px;
+	font-size: 30px;
+    margin-top: 600px;
+    z-index:2;
+}
+
+#h3savage5 {
+	color: #7ABCB1;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 35px;
+	font-size: 30px;
+    margin-top: 700px;
+    z-index:2;
+}
+
+#h3savage6 {
+	color: #7ABCB1;
+	font-family:'Abril Fatface', cursive;
+	margin-left: 35px;
+	font-size: 30px;
+    margin-top: 800px;
+    z-index:2;
+}
+
+}
+#h2blue {
+	position: absolute;
+	top: 0px;
+	color: #7ABCB1
+}
+
+.heading4 {
+	line-height: 2.3;
+	text-indent: 1.5em;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	z-index:1;
+}
+
+#home {
+	position: relative;
+
+	bottom: 0px;
+}
+
+#smallpill {
+	position: relative;
+	width: 40px;
+	height: 40px;
+}
+
+.state-infant-background {
+            position: absolute;
+            background: #A83330; 
+			left: 200px; 
+            right: 200px;
+			top: 150px;
+
+			opacity: 0.8;
+			background-position: center;
+}
+
+.state-savage-background {
+
+            position: absolute;
+            background: #7ABCB1; 
+			left: 200px; 
+            right: 200px;
+			top: 150px;
+
+			opacity: 0.8;
+			background-position: center;
+
+}
+
+ #freedom {
+	background-image: url("freedom1.png");
+	background-repeat: repeat;
+	background-color: rgba(0,0,0,0.1);
+    z-index: 2；
+    background: transparent;
+
+} 
