@@ -1,0 +1,149 @@
+body {
+  background-color: orange;
+}
+
+.frame {
+  width: 1000px;
+  height: 600px;
+  background: #DEB887;
+  margin: 30px auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+.curtain {
+	width: 1000px;
+	height: 300px;
+	background: #556B2F;
+	bottom: 300px;
+}
+
+.book-one {
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	left: 372px;
+	bottom: 65px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #A52A2A;
+}
+
+.book-two {
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	left: 375px;
+	bottom: 55px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #B8860B;
+}
+
+.book-three {
+	width: 150px;
+	height: 20px;
+	position: absolute;
+	left: 375px;
+	bottom: 45px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: white;
+}
+
+.bottle {
+	border-bottom: 100px solid white;
+	position: absolute;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 10px;
+	left: 320px;
+	bottom: 130px;
+}
+	
+.bottle2 {
+	width: 40px;
+	height: 70px;
+	position: absolute;
+	left: 330px;
+	bottom: 180px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+}
+
+
+.fruit-1 {
+   position: relative;
+   left: 200px;
+   width: 126px;
+   height: 200px;
+   background-color: #FFD700;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   z-index: 1;
+   
+}
+
+#burst-8 {
+    background: #228b22;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 220px;
+    text-align: center;
+    -webkit-transform: rotate(20deg);
+       -moz-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+         -o-transform: rotate(20eg);
+    z-index: 2;
+}
+#burst-8:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background: #228b22;
+    -webkit-transform: rotate(135deg);
+       -moz-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+         -o-transform: rotate(135deg);
+}
+
+.fruit-2 {
+	width: 100px;
+	height: 100px;
+	background: #F0E68C;
+	position: relative;
+	left: 280px;
+	bottom: 150px;
+    z-index: 2.5;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.fruit-3 {
+	width: 120px;
+	height: 75px;
+	background: #E9967A;
+	position: relative;
+	left: 370px;
+	bottom: 230px;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	z-index: 1.5;
+}
+
+
+
+
+}

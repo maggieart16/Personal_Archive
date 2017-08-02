@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>"Marge, I like to be with the sandwich for a moment" 
+        "Are you going to eat it" 
+        "......... Yes"
+    </h1>
+    <img src="test.png" />
+      
+  </body>
+  </html>
+

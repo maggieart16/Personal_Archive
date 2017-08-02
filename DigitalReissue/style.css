@@ -12,13 +12,15 @@ a:hover {
 	color: #A83330 !important;
 }
 
-#finger {
+/*#finger {
 	position: absolute;
 	width: 100px;
 	height: 80px;
 	top: 360px; 
 	left: 250px; 
 }
+*/
+
 
 .red-button {
 	opacity: 1;
@@ -32,7 +34,25 @@ a:hover {
 	opacity: .6;
 }
 
-.state1 {
+.blue-button {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    background: #7ABCB1;
+    width:100%; 
+    height:500px; 
+}
+.blue-button:hover {
+	opacity: .7;
+}
+
+#bluesign1 {
+	color: #7ABCB1;
+	position: fixed;
+	bottom: 5px;
+	left: 15px;
+}
+.infant {
 	-webkit-filter: blur(3px);
 	filter: blur(3px);
 	ease-in-out;
@@ -40,24 +60,26 @@ a:hover {
 	transition: .3s ease-in-out;
 	z-index:1;
 	position: relative;
-	left: 50px;
-	top: 0px;
+	left: 550px;
+	top: 50px; 
 
-
-	
+		
 }
-.state1:hover {
+.infant:hover {
 	-webkit-filter: blur(0);
 	filter:blur(0);
 	position: relative;
-	left: 100px;
-	top: 0px;
+
+	left: 580px;
+	top: 50px;
+	height: 120%;
+	width: 200%;
 }
 
 .stateh3 {
 	position: relative;
 	font-family: Anton;
-	top: 200px;
+	top: 400px;
 	text-align: center;
 	color:#A83330;
 	font-size: 32px;
@@ -93,93 +115,20 @@ a:hover {
 	left: 15px;
 	width: 60px;
 	height: 40px;
+	background-color:#7ABCB1;
 
 }
 
 .forward {
 	z-index:3;
 	position: fixed;
-	bottom: 20px;
+	top: 20px;
 	right: 15px;
 	width: 60px;
 	height: 40px;
 
 }
 
-/*.red-button2 {
-	background: #A83330; 
-	width: 100%; 
-	height: 500px;
-	opacity: 0.69;	
-} */
-
-.blue-button {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-    background: #7ABCB1;
-    width:100%; 
-    height:500px; 
-}
-.blue-button:hover {
-	opacity: .7;
-}
-/* #title {
-	font-family: 'Anton', sans-serif;
-	text-align: center;
-	color: white;
-	font-size: 50px;
-	position: relative;
-	text-align: center;
-	top: 365px; 
-	left: 310px;
-} */
-/* .flip-container {
-	perspective: 1000px;
-	width: 100%;
-	height: 500px
-}
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-
-	}
-
-.flip-container, .front, .back {
-	width: 100%;
-	height: 500px;
-}
-
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-    width:100%; 
-    height:500px;
-	position: relative;
-}
-
-.front, .back {
-	backface-visibility: hidden;
-    width:100%; 
-    height:500px;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.front {
-	z-index: 2;
-	
-	transform: rotateY(0deg);
-	width:100%; 
-    height:500px;
-}
-
-
-.back {
-	transform: rotateY(180deg);
-	width:100%; 
-    height:500px;
-} */ 
 
 #sleep {
 	position: relative;
@@ -194,8 +143,8 @@ a:hover {
 }
 
 .red {
-	float: right;
-	left: 870px;
+	position: absolute;
+	left: 900px;
 	right: 0px;
 	top: 0px;
 	width: 160px;
@@ -223,6 +172,32 @@ a:hover {
 
 }
 
+.slogan {
+	color: #A83330;
+	font-size: 25px;
+	font-family:'Abril Fatface', cursive;
+	position: relative;
+	top: 100px;
+
+}
+
+.slogan2 {
+	color: #A83330;
+	font-size: 25px;
+	font-family:'Abril Fatface', cursive;
+	position: relative;
+	left: 100px;
+	top: 100px;
+}
+.slogan21 {
+	color: #A83330;
+	font-size: 25px;
+	font-family:'Abril Fatface', cursive;
+	position: relative;
+	left: 700px;
+	top: 65px;
+}
+/*
 #h3slogan1 {
 	color: #A83330;
 	font-family:'Abril Fatface', cursive;
@@ -247,7 +222,7 @@ a:hover {
     margin-top: 500px;
     z-index:2;
 }
-
+*/
 #h3slogan4 {
 	color: #A83330;
 	font-family:'Abril Fatface', cursive;
@@ -329,18 +304,31 @@ a:hover {
 #h2blue {
 	position: absolute;
 	top: 0px;
-	color: #7ABCB1
+	color: #7ABCB1;
 }
 
 .heading4 {
 	line-height: 2.3;
 	text-indent: 1.5em;
-	margin-top: 30px;
+	margin-top: 50px;
 	margin-left: 10px;
 	margin-right: 10px;
 	z-index:1;
+	color: #7ABCB1;
+	font-size: 20px
 }
 
+
+.heading5 {
+	line-height: 2.3;
+	text-indent: 1.5em;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	z-index:1;
+	color: #A83330;
+	font-size: 20px
+}
 #home {
 	position: relative;
 
@@ -356,12 +344,13 @@ a:hover {
 .state-infant-background {
             position: absolute;
             background: #A83330; 
-			left: 200px; 
+            top: 200px;
+			/*left: 200px; 
             right: 200px;
-			top: 150px;
+			top: 300px;
 
 			opacity: 0.8;
-			background-position: center;
+			background-position: center; */
 }
 
 .state-savage-background {
@@ -378,7 +367,15 @@ a:hover {
 }
 
  #freedom {
-	background-image: url("freedom1.png");
+	background-image: url("freedom.gif");
+	background-repeat: repeat;
+	background-color: rgba(0,0,0,0.1);
+    z-index: 2；
+    background: transparent;
+
+} 
+#control {
+	background-image: url("control.gif");
 	background-repeat: repeat;
 	background-color: rgba(0,0,0,0.1);
     z-index: 2；
